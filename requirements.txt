@@ -1,0 +1,8 @@
+Pyrogram
+https://github.com/usernein/pyromod/archive/2d71f19a821355ff9a4e1cd9fdbbf2a0990b482a.zip
+TgCrypto
+httpx
+certifi
+dnspython
+motor
+humanfriendly
