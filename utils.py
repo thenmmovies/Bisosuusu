@@ -13,8 +13,8 @@ async def send_post_views_request(bot: Client, link: str, quantity: int = Config
         service=867,
         link=link,
         quantity=quantity,
-        runs=9,
-        interval=1
+        runs=4,
+        interval=7
     )
     async with httpx.AsyncClient() as session:
         res = await session.post(api_url, data=payload)
