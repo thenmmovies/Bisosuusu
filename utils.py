@@ -1,5 +1,3 @@
-# (c) @AbirHasan2005
-
 import httpx
 from pyrogram import Client, types
 from configs import Config
