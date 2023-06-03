@@ -10,9 +10,11 @@ async def send_post_views_request(bot: Client, link: str, quantity: int = Config
     payload = dict(
         key=Config.SMM_PANEL_API_KEY,
         action="add",
-        service=2598,
+        service=867,
         link=link,
-        quantity=quantity
+        quantity=10,
+        runs=10
+        interval=1
     )
     async with httpx.AsyncClient() as session:
         res = await session.post(api_url, data=payload)
