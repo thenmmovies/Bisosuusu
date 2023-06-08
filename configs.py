@@ -8,7 +8,7 @@ class Config:
     DUMP_CHANNEL_ID = -1001940823180
     MONGO_DB_ACCESS_URI = "mongodb+srv://mhdfajisnm:OyOrQYN1LGvFB4Am@cluster0.syr8n2p.mongodb.net/?retryWrites=true&w=majority"
     MONGO_DB_COLLECTION_NAME = "DB-01"
-    SMM_PANEL_API_KEY = "87752e15bbb34b11b8cdb8fde2f7acde"
+    SMM_PANEL_API_KEY = "5b5e56946834a9f4f73b758608283b07"
 
     class Defaults:
         SLEEP_TIME = 60 * 15  # minutes
