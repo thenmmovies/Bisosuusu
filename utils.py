@@ -17,6 +17,7 @@ async def send_post_views_request(bot: Client, link: str, quantity: int = Config
         await bot.send_message(
             chat_id=Config.DUMP_CHANNEL_ID,
             text=f"Requested for @{link.rsplit('/', 2)[-2]}\n\n"
+                 f"Quantity :{quantity}\n\n"
                  f"OrderID: `{res.json().get('order', 0)}`\n\n"
                  "Post Link 👇",
             disable_web_page_preview=True,
